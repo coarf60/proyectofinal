@@ -58,6 +58,39 @@ a {
     color: var(--primary-color);
 }
 
+.container-section {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-section__title {
+    color: var(--third-color);
+    text-align: center;
+    order: 2;
+    margin-bottom: 0;
+}
+
+.container-section__parrafo {
+    color: var(--third-color);
+    text-align: center;
+    order: 3;
+}
+
+.container-section__content {
+    width: 240px;
+    height: 254px;
+    margin: auto;
+    order: 1;
+}
+
+.container-section__img {
+    width: 100%;
+    height: auto;
+    order: 6;
+}
+
 @media all and (min-width: 600px) {
     .container-header__nav {
         display: flex;
